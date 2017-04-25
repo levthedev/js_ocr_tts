@@ -17,9 +17,10 @@ input {
   font-size: 50px;
   font-family: Arial, sans-serif;
   display: inline-block;
-  width: 100vw;
+  width: calc(100vw - 10px);
   height: 40vh;
   background-color: #956bc3;
+  border: 5px solid #7947ae;
 }
 
 .uploadText {
@@ -34,4 +35,6 @@ input {
   margin-top: 25px;
   font-size: 25px;
   text-align: center;
+  width: 100vw;
+  height: 60vw;
 }
