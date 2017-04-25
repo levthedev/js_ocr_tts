@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 300px;
+  overflow-x: hidden;
+}
+
+input {
+  display: none;
+}
+
+.uploadWrapper {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 50px;
+  font-family: Arial, sans-serif;
+  display: inline-block;
+  width: 100vw;
+  height: 40vh;
+  background-color: #956bc3;
+}
+
+.uploadText {
+  margin: 0 auto;
+}
+
+.uploadWrapper:active {
+  background-color: #7947ae;
+}
+
+#result {
+  margin-top: 25px;
+  font-size: 25px;
+  text-align: center;
+}

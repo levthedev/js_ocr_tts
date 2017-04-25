@@ -1,10 +1,15 @@
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="./client.js"></script>
+    <link href="./styles.css" rel="stylesheet" type="text/css"></script>
     <script src='https://cdn.rawgit.com/naptha/tesseract.js/1.0.10/dist/tesseract.js'></script>
   </head>
   <body>
-    <input type="file" accept="image/*;capture=camera" onchange="processFile(this.files[0])"></input>
+    <label class="uploadWrapper">
+      <div id="uploadText">Take a picture</div>
+      <input type="file" accept="image/*;capture=camera" onchange="processFile(this.files[0])"></input>
+    </label>
     <div id="result"></div>
   </body>
 </html>
